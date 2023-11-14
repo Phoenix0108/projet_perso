@@ -11,20 +11,19 @@ Description courte du projet.
 
 ## Aperçu
 
-Inclure une brève description ou une capture d'écran du projet.
+Ce projet a pour but de regrouper absolument tous les projet réalisé entre 2021 et 2023
 
 ## Fonctionnalités
 
 - Liste des fonctionnalités principales.
-- Exemple : 
-  - Fonctionnalité 1 : Description
-  - Fonctionnalité 2 : Description
+  - Fonctionnalité 1 : Affichage de projet
+  - Fonctionnalité 2 : Telechargement de projets
 
 ## Utilisation
 
-Expliquez comment utiliser votre projet une fois qu'il est installé. Donnez des exemples de code ou des commandes pour aider les utilisateurs à démarrer.
+Ce site permet de retrouver tout les projets fait entre 2021 et 2023.
 
 ## Licence
 
-Indiquez la licence sous laquelle votre projet est distribué. Par exemple, MIT, GPL, Apache, etc.
+Ce projet est sous license MIT.
 
