@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Convertisseur_et_fonction calcul</title>
+
+        <link rel="stylesheet" href="asset/css/style.css">
+        <link rel="icon" type="image/png" sizes="16x16" href="asset/Image/icone_site.jpg">
+    </head>
+    <body>
+
+        <div class="accueil">
+
+            <!--Menu déroulant-->
+        
+            <nav>
+
+                <ul>
+                  
+                    <li class="déroulant"><a href="#">Cours EFREI</a>
+                        <ul class="sous">
+                            <li><a href="cours_B1.html">B1</a></li>
+                            <li><a href="#">B2</a></li>
+                            <li><a href="#">B3</a></li>
+                            <li><a href="#">M1</a></li>
+                        </ul>
+                    </li>
+                    <li class="déroulant"><a href="#">Projets complétés &ensp;</a>
+                        <ul class="sous">
+                            <li><a href="site perso/page1.html">Site perso voile</a></li>
+                            <li><a href="Quizz.html">Quizz</a></li>
+                            <li><a href="Site Noël/index.html">Site de Noël</a></li>
+                            <li><a href="Convertisseur.html">Convertisseur</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Téléchargement.html">Téléchargement</a></li>
+                    <li><a href="index.html">Accueil</a></li>
+                </ul>
+                
+            </nav>
+        </div>
+
+        <br><br><br>
+
+        <header><h1>Convertisseur de l'euro au dollar + fonction calcul</h1></header>
+
+        <div class = bloc>
+
+
+            <!--Convertisseur de monnaie-->
+
+            <h2>Convertisseur</h2><br><br>
+
+            <i><b>Veuiller entrer la valeur a convertir </b></i><br><br>
+            <input type="text" id="value" name="Euro"><br><br><br>
+
+
+            <i><b>En quel monnaie voulez vous convertir cette valeur ? </b></i><br><br>
+            
+            <input type = "radio"  name="choix" id = euro> Euro<br>
+            <input type = "radio"  name="choix" id = usd> USD<br><br>
+
+            <input type="button" value="Valider" onclick="convertisseur ()"><br><br>
+
+            <i><b>Résultat :</b></i>
+
+            <input type="text" size="10" id="resultat" disabled="disabled">
+
+            
+
+            <!--Calcul en toutes bases-->
+            
+            <h2>Fonction calcul</h2><br><br>
+
+            <i><b>Cette fonction permet de convertir un entier en toutes les bases possible.</b></i><br><br>
+
+            <p><em>Entier à convertir :</em></p><br>
+                
+            <input type="text" size="5" id="entier" maxlength="5"></p><br>
+
+
+            <p><em>Convertir en base:</em></p><br>
+            
+            <input type="number" name="selection" id ="conv" min="0" max ="40"><br><br>
+
+            <input type="button" onclick="Calcul()" value="Convertir">
+
+            <br><br>
+
+            <i><b>Résultat :</b></i>
+            
+            <input type="text" size="10" id="resultat1" disabled="disabled">
+
+            <br><br><br>
+        </div>
+
+        <br><br><br>
+
+        <!--Footer-->
+
+        <footer>
+            <div class="content-footer">
+                <div class="bloc1 footer-contact">
+                    <h3>Me contacter</h3>
+                    <p>Discord : _phoenix1</p>
+                    <p>phoenix_pro@outlook.fr</p>                
+                </div>
+            </div>
+        </footer>
+
+        <!--Javascript-->
+
+        <script src="asset/Java/app.js"></script>
+    </body>
+</html>
