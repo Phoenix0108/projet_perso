@@ -1,6 +1,6 @@
-# Nom du Projet
+# Hub des projets
 
-Description courte du projet.
+Il sagit d'un site permettant de prendre en compte tous les projets fait
 
 ## Table des matières
 
